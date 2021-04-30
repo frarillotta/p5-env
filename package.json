@@ -1,0 +1,23 @@
+{
+  "name": "p5-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frarillotta/p5-env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frarillotta/p5-env/issues"
+  },
+  "homepage": "https://github.com/frarillotta/p5-env#readme",
+  "dependencies": {
+    "@types/p5": "^0.9.1",
+    "live-server": "^1.2.1"
+  }
+}
