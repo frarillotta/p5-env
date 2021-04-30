@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Launch live-server",
+        "type": "shell",
+        "command": "npx",
+        "args": [
+            "live-server",
+            // "--browser=min",
+            "--open=/", 
+            "--ignore=.git"
+        ],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
