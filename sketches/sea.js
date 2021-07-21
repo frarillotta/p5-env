@@ -21,9 +21,9 @@ function draw() {
     push()
     for (let j = 0; j < 40; j++) {
 
-      push()
+      push();
       translate(i * 75, 0, j * 75);
-      box(70, sin(frameCount * 0.05 + j*0.5 + i*0.5)  * 60 + 90, 70);
+      box(70, Math.sin(frameCount * 0.05 + j*0.5 + i*0.5) * 60 + 90, 70);
       pop()
       
     }
